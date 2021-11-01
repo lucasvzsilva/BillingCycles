@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start loader.js --name backend"
+  },
+  "author": "Diogo Amaral",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-query-int": "^3.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^4.7.0",
+    "mongoose-paginate": "^5.0.3",
+    "node-pre-gyp": "^0.12.0",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "description": ""
+}
